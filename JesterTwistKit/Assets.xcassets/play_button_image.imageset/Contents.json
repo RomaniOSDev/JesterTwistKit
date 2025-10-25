@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "play_button_image.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

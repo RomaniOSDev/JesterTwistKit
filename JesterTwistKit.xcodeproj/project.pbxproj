@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74AE77712EACC18C006DDF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77672EACC18C006DDF81 /* AppDelegate.swift */; };
+		74AE77722EACC18C006DDF81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE776E2EACC18C006DDF81 /* SceneDelegate.swift */; };
+		74AE77742EACC18C006DDF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AE77682EACC18C006DDF81 /* Assets.xcassets */; };
+		74AE77762EACC18C006DDF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AE776B2EACC18C006DDF81 /* LaunchScreen.storyboard */; };
+		74AE77772EACC18C006DDF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AE776D2EACC18C006DDF81 /* Main.storyboard */; };
+		74AE777A2EACC1C8006DDF81 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 74AE77792EACC1C8006DDF81 /* SnapKit */; };
+		74AE77982EACC1DF006DDF81 /* TreasureScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE778C2EACC1DF006DDF81 /* TreasureScreen.swift */; };
+		74AE77992EACC1DF006DDF81 /* SelectQuizScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77922EACC1DF006DDF81 /* SelectQuizScreen.swift */; };
+		74AE779A2EACC1DF006DDF81 /* ElementsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77832EACC1DF006DDF81 /* ElementsData.swift */; };
+		74AE779B2EACC1DF006DDF81 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE777F2EACC1DF006DDF81 /* GameModel.swift */; };
+		74AE779C2EACC1DF006DDF81 /* ResultQuizScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77942EACC1DF006DDF81 /* ResultQuizScreen.swift */; };
+		74AE779D2EACC1DF006DDF81 /* JesterTwistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE778E2EACC1DF006DDF81 /* JesterTwistData.swift */; };
+		74AE779E2EACC1DF006DDF81 /* AnswerButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77952EACC1DF006DDF81 /* AnswerButtons.swift */; };
+		74AE779F2EACC1DF006DDF81 /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77892EACC1DF006DDF81 /* AppSettingsView.swift */; };
+		74AE77A02EACC1DF006DDF81 /* ResultView_JT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77902EACC1DF006DDF81 /* ResultView_JT.swift */; };
+		74AE77A12EACC1DF006DDF81 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE778A2EACC1DF006DDF81 /* ResultScreen.swift */; };
+		74AE77A22EACC1DF006DDF81 /* HelpAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77822EACC1DF006DDF81 /* HelpAppView.swift */; };
+		74AE77A32EACC1DF006DDF81 /* QuizScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77932EACC1DF006DDF81 /* QuizScreen.swift */; };
+		74AE77A42EACC1DF006DDF81 /* BaseGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77872EACC1DF006DDF81 /* BaseGameView.swift */; };
+		74AE77A52EACC1DF006DDF81 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77852EACC1DF006DDF81 /* FirstScreen.swift */; };
+		74AE77A62EACC1DF006DDF81 /* BackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE777D2EACC1DF006DDF81 /* BackGroundView.swift */; };
+		74AE77A72EACC1DF006DDF81 /* JesterTwistScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE778F2EACC1DF006DDF81 /* JesterTwistScreen.swift */; };
+		74AE77A82EACC1DF006DDF81 /* NumberOfLivesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77802EACC1DF006DDF81 /* NumberOfLivesView.swift */; };
+		74AE77A92EACC1DF006DDF81 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE777E2EACC1DF006DDF81 /* CollectionCell.swift */; };
+		74AE77AA2EACC1DF006DDF81 /* InfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE778B2EACC1DF006DDF81 /* InfoScreen.swift */; };
+		74AE77AD2EACC818006DDF81 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 74AE77AC2EACC818006DDF81 /* AppsFlyerLib */; };
+		74AE77B22EACCA03006DDF81 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77B02EACCA03006DDF81 /* LoaderViewController.swift */; };
+		74AE77B32EACCA03006DDF81 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77AF2EACCA03006DDF81 /* InternetViewController.swift */; };
+		74AE77B42EACCA03006DDF81 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77AE2EACCA03006DDF81 /* CheckLink.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12C4634F9D6E03AC75B845C8 /* Pods-JesterTwistKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JesterTwistKit.release.xcconfig"; path = "Target Support Files/Pods-JesterTwistKit/Pods-JesterTwistKit.release.xcconfig"; sourceTree = "<group>"; };
+		74AE774F2EACC178006DDF81 /* JesterTwistKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JesterTwistKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AE77672EACC18C006DDF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74AE77682EACC18C006DDF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74AE77692EACC18C006DDF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AE776A2EACC18C006DDF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74AE776C2EACC18C006DDF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74AE776E2EACC18C006DDF81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74AE777D2EACC1DF006DDF81 /* BackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundView.swift; sourceTree = "<group>"; };
+		74AE777E2EACC1DF006DDF81 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		74AE777F2EACC1DF006DDF81 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		74AE77802EACC1DF006DDF81 /* NumberOfLivesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfLivesView.swift; sourceTree = "<group>"; };
+		74AE77822EACC1DF006DDF81 /* HelpAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAppView.swift; sourceTree = "<group>"; };
+		74AE77832EACC1DF006DDF81 /* ElementsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsData.swift; sourceTree = "<group>"; };
+		74AE77852EACC1DF006DDF81 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		74AE77872EACC1DF006DDF81 /* BaseGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseGameView.swift; sourceTree = "<group>"; };
+		74AE77892EACC1DF006DDF81 /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
+		74AE778A2EACC1DF006DDF81 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+		74AE778B2EACC1DF006DDF81 /* InfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoScreen.swift; sourceTree = "<group>"; };
+		74AE778C2EACC1DF006DDF81 /* TreasureScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureScreen.swift; sourceTree = "<group>"; };
+		74AE778E2EACC1DF006DDF81 /* JesterTwistData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JesterTwistData.swift; sourceTree = "<group>"; };
+		74AE778F2EACC1DF006DDF81 /* JesterTwistScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JesterTwistScreen.swift; sourceTree = "<group>"; };
+		74AE77902EACC1DF006DDF81 /* ResultView_JT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView_JT.swift; sourceTree = "<group>"; };
+		74AE77922EACC1DF006DDF81 /* SelectQuizScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuizScreen.swift; sourceTree = "<group>"; };
+		74AE77932EACC1DF006DDF81 /* QuizScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizScreen.swift; sourceTree = "<group>"; };
+		74AE77942EACC1DF006DDF81 /* ResultQuizScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultQuizScreen.swift; sourceTree = "<group>"; };
+		74AE77952EACC1DF006DDF81 /* AnswerButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButtons.swift; sourceTree = "<group>"; };
+		74AE77AE2EACCA03006DDF81 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74AE77AF2EACCA03006DDF81 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74AE77B02EACCA03006DDF81 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		CB4FE62FC5196B46CD03CB10 /* Pods_JesterTwistKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JesterTwistKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70AAFFDF875C9431895531D /* Pods-JesterTwistKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JesterTwistKit.debug.xcconfig"; path = "Target Support Files/Pods-JesterTwistKit/Pods-JesterTwistKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74AE774C2EACC178006DDF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AE777A2EACC1C8006DDF81 /* SnapKit in Frameworks */,
+				74AE77AD2EACC818006DDF81 /* AppsFlyerLib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F82514EEC47C67C1C6D2282 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E70AAFFDF875C9431895531D /* Pods-JesterTwistKit.debug.xcconfig */,
+				12C4634F9D6E03AC75B845C8 /* Pods-JesterTwistKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54E3F7EE2D85379F3B01EE38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB4FE62FC5196B46CD03CB10 /* Pods_JesterTwistKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74AE77462EACC178006DDF81 = {
+			isa = PBXGroup;
+			children = (
+				74AE77702EACC18C006DDF81 /* JesterTwistKit */,
+				74AE77502EACC178006DDF81 /* Products */,
+				2F82514EEC47C67C1C6D2282 /* Pods */,
+				54E3F7EE2D85379F3B01EE38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74AE77502EACC178006DDF81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74AE774F2EACC178006DDF81 /* JesterTwistKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74AE77702EACC18C006DDF81 /* JesterTwistKit */ = {
+			isa = PBXGroup;
+			children = (
+				74AE77672EACC18C006DDF81 /* AppDelegate.swift */,
+				74AE77682EACC18C006DDF81 /* Assets.xcassets */,
+				74AE77692EACC18C006DDF81 /* Info.plist */,
+				74AE776B2EACC18C006DDF81 /* LaunchScreen.storyboard */,
+				74AE776D2EACC18C006DDF81 /* Main.storyboard */,
+				74AE776E2EACC18C006DDF81 /* SceneDelegate.swift */,
+				74AE77812EACC1DF006DDF81 /* Views */,
+				74AE77842EACC1DF006DDF81 /* HelpAppView */,
+				74AE77862EACC1DF006DDF81 /* FirstScreen */,
+				74AE77882EACC1DF006DDF81 /* BaseGameView */,
+				74AE778D2EACC1DF006DDF81 /* AppSettings */,
+				74AE77972EACC1DF006DDF81 /* GamesModule */,
+			);
+			path = JesterTwistKit;
+			sourceTree = "<group>";
+		};
+		74AE77812EACC1DF006DDF81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74AE777D2EACC1DF006DDF81 /* BackGroundView.swift */,
+				74AE777E2EACC1DF006DDF81 /* CollectionCell.swift */,
+				74AE777F2EACC1DF006DDF81 /* GameModel.swift */,
+				74AE77802EACC1DF006DDF81 /* NumberOfLivesView.swift */,
+				74AE77B12EACCA03006DDF81 /* LoadingView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74AE77842EACC1DF006DDF81 /* HelpAppView */ = {
+			isa = PBXGroup;
+			children = (
+				74AE77822EACC1DF006DDF81 /* HelpAppView.swift */,
+				74AE77832EACC1DF006DDF81 /* ElementsData.swift */,
+			);
+			path = HelpAppView;
+			sourceTree = "<group>";
+		};
+		74AE77862EACC1DF006DDF81 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				74AE77852EACC1DF006DDF81 /* FirstScreen.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		74AE77882EACC1DF006DDF81 /* BaseGameView */ = {
+			isa = PBXGroup;
+			children = (
+				74AE77872EACC1DF006DDF81 /* BaseGameView.swift */,
+			);
+			path = BaseGameView;
+			sourceTree = "<group>";
+		};
+		74AE778D2EACC1DF006DDF81 /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				74AE77892EACC1DF006DDF81 /* AppSettingsView.swift */,
+				74AE778A2EACC1DF006DDF81 /* ResultScreen.swift */,
+				74AE778B2EACC1DF006DDF81 /* InfoScreen.swift */,
+				74AE778C2EACC1DF006DDF81 /* TreasureScreen.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		74AE77912EACC1DF006DDF81 /* JesterTwist */ = {
+			isa = PBXGroup;
+			children = (
+				74AE778E2EACC1DF006DDF81 /* JesterTwistData.swift */,
+				74AE778F2EACC1DF006DDF81 /* JesterTwistScreen.swift */,
+				74AE77902EACC1DF006DDF81 /* ResultView_JT.swift */,
+			);
+			path = JesterTwist;
+			sourceTree = "<group>";
+		};
+		74AE77962EACC1DF006DDF81 /* QuizGame */ = {
+			isa = PBXGroup;
+			children = (
+				74AE77922EACC1DF006DDF81 /* SelectQuizScreen.swift */,
+				74AE77932EACC1DF006DDF81 /* QuizScreen.swift */,
+				74AE77942EACC1DF006DDF81 /* ResultQuizScreen.swift */,
+				74AE77952EACC1DF006DDF81 /* AnswerButtons.swift */,
+			);
+			path = QuizGame;
+			sourceTree = "<group>";
+		};
+		74AE77972EACC1DF006DDF81 /* GamesModule */ = {
+			isa = PBXGroup;
+			children = (
+				74AE77912EACC1DF006DDF81 /* JesterTwist */,
+				74AE77962EACC1DF006DDF81 /* QuizGame */,
+			);
+			path = GamesModule;
+			sourceTree = "<group>";
+		};
+		74AE77B12EACCA03006DDF81 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74AE77AE2EACCA03006DDF81 /* CheckLink.swift */,
+				74AE77AF2EACCA03006DDF81 /* InternetViewController.swift */,
+				74AE77B02EACCA03006DDF81 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74AE774E2EACC178006DDF81 /* JesterTwistKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AE77622EACC178006DDF81 /* Build configuration list for PBXNativeTarget "JesterTwistKit" */;
+			buildPhases = (
+				42B7F853735BC2AFBDC264ED /* [CP] Check Pods Manifest.lock */,
+				74AE774B2EACC178006DDF81 /* Sources */,
+				74AE774C2EACC178006DDF81 /* Frameworks */,
+				74AE774D2EACC178006DDF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JesterTwistKit;
+			productName = JesterTwistKit;
+			productReference = 74AE774F2EACC178006DDF81 /* JesterTwistKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74AE77472EACC178006DDF81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					74AE774E2EACC178006DDF81 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 74AE774A2EACC178006DDF81 /* Build configuration list for PBXProject "JesterTwistKit" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74AE77462EACC178006DDF81;
+			packageReferences = (
+				74AE77782EACC1C8006DDF81 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				74AE77AB2EACC818006DDF81 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+			);
+			productRefGroup = 74AE77502EACC178006DDF81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74AE774E2EACC178006DDF81 /* JesterTwistKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74AE774D2EACC178006DDF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AE77742EACC18C006DDF81 /* Assets.xcassets in Resources */,
+				74AE77762EACC18C006DDF81 /* LaunchScreen.storyboard in Resources */,
+				74AE77772EACC18C006DDF81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42B7F853735BC2AFBDC264ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JesterTwistKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74AE774B2EACC178006DDF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AE77712EACC18C006DDF81 /* AppDelegate.swift in Sources */,
+				74AE77982EACC1DF006DDF81 /* TreasureScreen.swift in Sources */,
+				74AE77992EACC1DF006DDF81 /* SelectQuizScreen.swift in Sources */,
+				74AE779A2EACC1DF006DDF81 /* ElementsData.swift in Sources */,
+				74AE779B2EACC1DF006DDF81 /* GameModel.swift in Sources */,
+				74AE779C2EACC1DF006DDF81 /* ResultQuizScreen.swift in Sources */,
+				74AE779D2EACC1DF006DDF81 /* JesterTwistData.swift in Sources */,
+				74AE779E2EACC1DF006DDF81 /* AnswerButtons.swift in Sources */,
+				74AE779F2EACC1DF006DDF81 /* AppSettingsView.swift in Sources */,
+				74AE77A02EACC1DF006DDF81 /* ResultView_JT.swift in Sources */,
+				74AE77A12EACC1DF006DDF81 /* ResultScreen.swift in Sources */,
+				74AE77A22EACC1DF006DDF81 /* HelpAppView.swift in Sources */,
+				74AE77A32EACC1DF006DDF81 /* QuizScreen.swift in Sources */,
+				74AE77A42EACC1DF006DDF81 /* BaseGameView.swift in Sources */,
+				74AE77A52EACC1DF006DDF81 /* FirstScreen.swift in Sources */,
+				74AE77A62EACC1DF006DDF81 /* BackGroundView.swift in Sources */,
+				74AE77A72EACC1DF006DDF81 /* JesterTwistScreen.swift in Sources */,
+				74AE77B22EACCA03006DDF81 /* LoaderViewController.swift in Sources */,
+				74AE77B32EACCA03006DDF81 /* InternetViewController.swift in Sources */,
+				74AE77B42EACCA03006DDF81 /* CheckLink.swift in Sources */,
+				74AE77A82EACC1DF006DDF81 /* NumberOfLivesView.swift in Sources */,
+				74AE77A92EACC1DF006DDF81 /* CollectionCell.swift in Sources */,
+				74AE77AA2EACC1DF006DDF81 /* InfoScreen.swift in Sources */,
+				74AE77722EACC18C006DDF81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74AE776B2EACC18C006DDF81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AE776A2EACC18C006DDF81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74AE776D2EACC18C006DDF81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AE776C2EACC18C006DDF81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74AE77632EACC178006DDF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70AAFFDF875C9431895531D /* Pods-JesterTwistKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JesterTwistKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = home.JesterTwistKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74AE77642EACC178006DDF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C4634F9D6E03AC75B845C8 /* Pods-JesterTwistKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JesterTwistKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = home.JesterTwistKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		74AE77652EACC178006DDF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74AE77662EACC178006DDF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74AE774A2EACC178006DDF81 /* Build configuration list for PBXProject "JesterTwistKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AE77652EACC178006DDF81 /* Debug */,
+				74AE77662EACC178006DDF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AE77622EACC178006DDF81 /* Build configuration list for PBXNativeTarget "JesterTwistKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AE77632EACC178006DDF81 /* Debug */,
+				74AE77642EACC178006DDF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74AE77782EACC1C8006DDF81 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		74AE77AB2EACC818006DDF81 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74AE77792EACC1C8006DDF81 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74AE77782EACC1C8006DDF81 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		74AE77AC2EACC818006DDF81 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74AE77AB2EACC818006DDF81 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 74AE77472EACC178006DDF81 /* Project object */;
+}

@@ -1,0 +1,24 @@
+{
+  "originHash" : "154d3d0f6bfcbfa09ab612945b760c1c376ffbb670fe0a02b6b8c2d410728fb3",
+  "pins" : [
+    {
+      "identity" : "appsflyerframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppsFlyerSDK/AppsFlyerFramework",
+      "state" : {
+        "revision" : "43147aff398c1d9973f2f5dbe1193ad5d2e82d74",
+        "version" : "6.17.7"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    }
+  ],
+  "version" : 3
+}

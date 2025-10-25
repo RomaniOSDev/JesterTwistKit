@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "back_button_image.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
