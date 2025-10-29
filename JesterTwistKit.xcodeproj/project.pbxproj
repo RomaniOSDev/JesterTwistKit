@@ -36,6 +36,7 @@
 		74AE77B22EACCA03006DDF81 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77B02EACCA03006DDF81 /* LoaderViewController.swift */; };
 		74AE77B32EACCA03006DDF81 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77AF2EACCA03006DDF81 /* InternetViewController.swift */; };
 		74AE77B42EACCA03006DDF81 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE77AE2EACCA03006DDF81 /* CheckLink.swift */; };
+		74E2D1222EB2862600436523 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2D1212EB2861800436523 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		74AE77AE2EACCA03006DDF81 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
 		74AE77AF2EACCA03006DDF81 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		74AE77B02EACCA03006DDF81 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		74E2D1212EB2861800436523 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CB4FE62FC5196B46CD03CB10 /* Pods_JesterTwistKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JesterTwistKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70AAFFDF875C9431895531D /* Pods-JesterTwistKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JesterTwistKit.debug.xcconfig"; path = "Target Support Files/Pods-JesterTwistKit/Pods-JesterTwistKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -221,6 +223,7 @@
 		74AE77B12EACCA03006DDF81 /* LoadingView */ = {
 			isa = PBXGroup;
 			children = (
+				74E2D1212EB2861800436523 /* Extensions.swift */,
 				74AE77AE2EACCA03006DDF81 /* CheckLink.swift */,
 				74AE77AF2EACCA03006DDF81 /* InternetViewController.swift */,
 				74AE77B02EACCA03006DDF81 /* LoaderViewController.swift */,
@@ -349,6 +352,7 @@
 				74AE77B22EACCA03006DDF81 /* LoaderViewController.swift in Sources */,
 				74AE77B32EACCA03006DDF81 /* InternetViewController.swift in Sources */,
 				74AE77B42EACCA03006DDF81 /* CheckLink.swift in Sources */,
+				74E2D1222EB2862600436523 /* Extensions.swift in Sources */,
 				74AE77A82EACC1DF006DDF81 /* NumberOfLivesView.swift in Sources */,
 				74AE77A92EACC1DF006DDF81 /* CollectionCell.swift in Sources */,
 				74AE77AA2EACC1DF006DDF81 /* InfoScreen.swift in Sources */,
@@ -398,7 +402,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jub.j3st3rtw1st;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -435,7 +439,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jub.j3st3rtw1st;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
